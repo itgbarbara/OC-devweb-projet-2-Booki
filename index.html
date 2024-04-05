@@ -26,10 +26,10 @@
             <img src="images/logo/Booki.png" alt="Logo Booki" class="logo-header">
             <nav>
                 <ul>
-                    <a href="#">
+                    <a href="#herbergement">
                         <li>Hébergements</li>
                     </a>
-                    <a href="#">
+                    <a href="#populaires">
                         <li>Activités</li>
                     </a>
                 </ul>
@@ -37,14 +37,39 @@
         </header>
 
         <main>
+            <section class="zone-recherche">
+                <!-- Ajouter le contenu ici -->
+            </section>
             <!--Section contenant les encarts "Hébergements à Marseille" et "Les plus populaires"-->
             <div class="hebergements-and-populaires">
                 <!--encart "Hébergements à Marseille"-->
-                <section class="hebergements">
+                <section class="hebergements" id="hebergements">
+                    <h2 class="section-title">Hébergements à Marseille</h2>
+                    <div class="hebergements-cards">
+                        <div>
+                            <article class="card">
+                                <img src="images/hebergements/fred-kleber.jpg" alt="chambre à l'hôtel du port">
+                                <div class="card-content">
+                                    <div class="card-txt">
+                                        <h3 class="card-title">Hôtel du port</h3>
+                                        <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                                    </div>
+                                    <div class="card-rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
                     <!--Ajouter du contenu ici-->
                 </section>
                 <!--encart "Les plus populaires"-->
-                <section class="populaires">
+                <section class="populaires" id="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
