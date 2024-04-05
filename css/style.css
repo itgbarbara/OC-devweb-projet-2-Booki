@@ -3,8 +3,9 @@
     font-family: 'Raleway', sans-serif;
 }
 
-:root {
-    --main-color: #0065FC;
+:root { /* Permet de cibler la racine de l'arbre représentant le document, donc dans ce cas la balise <html>.
+    Utile lorsqu'on déclare des propriétés css globales (ici, les couleurs de la charte) */
+    --main-color: #0065FC; /* Propriété personnalisée contenant une valeur qui pourra être réutilisée dans le document grâce à la fonction var() */
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
@@ -22,7 +23,8 @@ body {
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Permet de spécifier si la marge intérieure (padding) et la bordure (border) d'un élément doivent compter dans sa dimension réelle */
+    /* La valeur border-box fait que même en rajoutant un padding, l'élément padding compris rester toujours de même dimension (la place pour le contenu diminue) */
 }
 
 a {
@@ -69,6 +71,24 @@ a {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+}
+
+/****** Header ********/
+
+.logo-header { /* Ajout */
+    width: 61px; 
+    height: 19px;
+    padding: 30px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    font-size:small;
+    width: 294px;
+    height: 35px;
+    padding: 0 25px 0 25px;
+    gap: 68px;
 }
 
 /****** Hebergements ***********/
