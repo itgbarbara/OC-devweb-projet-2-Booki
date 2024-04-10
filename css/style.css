@@ -137,6 +137,64 @@ h1 {
     border-radius: 0 15px 15px 0;
 }
 
+/****** Filtres ***********/
+.filterbar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.filterbar p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.filters { /* A revoir */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-group {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-option {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 25px;
+    gap: 10px;
+    padding: 0 19px 0 19px;
+}
+
+.filter-option:hover {
+    background-color: var(--filter-bg-color);
+}
+
+.filter-option p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.infobar {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.fa-info {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border: 1px solid var(--main-bg-color);
+    border-radius: 50px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
