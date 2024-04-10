@@ -337,7 +337,7 @@ h1 {
 .activites-cards .card-title {
     padding: 20px 19px 20px 19px;
 }
-    
+
 /****** Footer ***********/
 footer {
     width: 100%;
@@ -353,12 +353,19 @@ footer {
     justify-content: flex-start;
     align-items: space-between;
     padding: 30px;
-    gap: 10px;
+    gap: 15px;
 }
 
 .carre-footer ul {
+    display: flex;
+    flex-direction: column;
     list-style: none;
     padding-left: 0;
+    gap: 10px;
+}
+
+.carre-footer h2 {
+    font-size: 18px;
 }
 
 
