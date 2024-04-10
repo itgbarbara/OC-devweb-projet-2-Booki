@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0; /* Ajout */
 }
 
 :root { /* Permet de cibler la racine de l'arbre représentant le document, donc dans ce cas la balise <html>.
@@ -19,7 +20,7 @@ body {
     justify-content: center;
 }
 
-.main-container {
+.main-container { /* englobe les balises <header>, <main> et <footer> pour définir les dimensions de la page */
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
@@ -60,6 +61,36 @@ a {
     color: var(--main-bg-color)
 }
 
+/****** Header ********/
+.logo-header {
+    width: 61px; /* Responsive ? */
+    height: 19px; /* Responsive ? */
+    padding: 30px 0 30px 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px; /* Responsive ? */
+    font-weight: 400;
+    gap: 68px; /* Responsive ? */
+}
+
+header a {
+    padding-top: 20px;
+}
+
+header a:hover {
+    border-top: var(--main-color) solid 2px; /* La bordure doit être dessous en version mobile */
+    color: var(--main-color)
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -71,24 +102,6 @@ a {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
-}
-
-/****** Header ********/
-
-.logo-header { /* Ajout */
-    width: 61px; 
-    height: 19px;
-    padding: 30px;
-}
-
-header ul {
-    display: flex;
-    flex-direction: row;
-    font-size:small;
-    width: 294px;
-    height: 35px;
-    padding: 0 25px 0 25px;
-    gap: 68px;
 }
 
 /****** Hebergements ***********/
