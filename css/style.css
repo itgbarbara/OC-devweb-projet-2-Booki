@@ -91,6 +91,52 @@ header a:hover {
     color: var(--main-color)
 }
 
+/****** Trouver hébergement ***********/
+h1 {
+    font-size: 22px; /* Responsive ? */
+    font-weight: 700;
+    margin: 30px 0 8px 0;
+}
+
+.trouver-hebergement p {
+    font-size: 16px; /* Responsive ? */
+    font-weight: 400;
+}
+
+.searchbar {
+    margin: 35px 0 35px 0;
+}
+
+.fa-location-dot {
+    color: black;
+    font-size: 18px;
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--main-bg-color);
+    border-radius: 15px 0 0 15px;
+    padding: 15px 18px 15px 18px;
+}
+
+.search-field {
+    font-size: 18px; /* Responsive ? */
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    border: none;
+    border-top: 1px solid var(--main-bg-color);
+    border-bottom: 1px solid var(--main-bg-color);
+}
+
+.submit-button {
+    color: white;
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    font-size: 18px; /* Responsive ? */
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 16px 15px 16px;
+    border-radius: 0 15px 15px 0;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
