@@ -305,6 +305,40 @@ h1 {
     margin-bottom: 5px;
 }
 
+/****** Activités ***********/
+.activites {
+    padding: 30px;
+    }
+    
+    .activites-cards {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        box-sizing: border-box;
+    }
+    
+    .activites-cards .card {
+        width: 23%; /* Responsive ? */
+        display: flex;
+        flex-direction: column;
+        margin-top: 33px;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .activites-cards img {
+        height: 380px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .activites-cards .card-title {
+        padding: 20px 19px 20px 19px;
+    }
+    
+
 
 
 
