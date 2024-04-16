@@ -464,169 +464,169 @@ footer {
         font-size: 13px;
     }
 
-        /****** Activités ******/
-        .activites-cards img {
-            height: 200px;
-        }
+    /****** Activités ******/
+    .activites-cards img {
+        height: 200px;
+    }
     
-        .activites-cards h3 {
-            font-size: 14px;
-        }
+    .activites-cards h3 {
+        font-size: 14px;
+    }
     
-        .activites-cards .card {
-            height: 270px;
-        }
+    .activites-cards .card {
+        height: 270px;
+    }
     
-        .activites-cards img {
-            height: 74%;
-        }
+    .activites-cards img {
+        height: 74%;
+    }
     
-        /****** Footer ******/
+    /****** Footer ******/
 
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
-        /****** General ******/
+    /****** General ******/
 
-        .main-container { /* englobe les balises <header>, <main> et <footer> pour définir les dimensions de la page */
-            padding: 0 20px;
-        }
+    .main-container { /* englobe les balises <header>, <main> et <footer> pour définir les dimensions de la page */
+        padding: 0 20px;
+    }
     
-        section {
-            padding:0;
-        }
+    section {
+        padding:0;
+    }
     
-        /****** Header ******/
+    /****** Header ******/
     
-        header {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-        }
+    header {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
     
-        header ul {
-            gap: 0;
-        }
+    header ul {
+        gap: 0;
+    }
     
-        nav {
-            width: 100%; 
-        }
+    nav {
+        width: 100%; 
+    }
     
-        header a {
-            width: 50%;
-            text-align: center;
-            border-bottom: var(--main-bg-color) solid 2px;
-        }
+    header a {
+        width: 50%;
+        text-align: center;
+        border-bottom: var(--main-bg-color) solid 2px;
+    }
     
-        header a:hover {
-            border-top: none;
-            border-bottom: var(--main-color) solid 2px;
-        }
+    header a:hover {
+        border-top: none;
+        border-bottom: var(--main-color) solid 2px;
+    }
     
-        /****** Trouver hébergement ******/
+    /****** Trouver hébergement ******/
     
-        form {
-            width: 100%;
-        }
+    form {
+        width: 100%;
+    }
     
-        .submit-button-1 {
-            display: none;
-        }
+    .submit-button-1 {
+        display: none;
+    }
     
-        .submit-button-2 {
-            display: inline;
-        }
+    .submit-button-2 {
+        display: inline;
+    }
     
-        /****** Filtres *********/
+    /****** Filtres *********/
     
-        .filters {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            gap: 10px;
-        }
+    .filters {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
     
-        .filter-group {
-            width: 100%;
-        }
+    .filter-group {
+        width: 100%;
+    }
     
-        .filter-group a {
-            width: 50%;
-        }
+    .filter-group a {
+        width: 50%;
+    }
     
-        .filter-option {
-            justify-content: flex-start;
-        }
+    .filter-option {
+        justify-content: flex-start;
+    }
     
-        /****** Hebergements and populaires ******/
+    /****** Hebergements and populaires ******/
     
-        .hebergements-and-populaires section {
-            background-color: white;
-            border-radius: 0;
-            padding: 0;
-        }
+    .hebergements-and-populaires section {
+        background-color: white;
+        border-radius: 0;
+        padding: 0;
+    }
     
-        /****** Hebergements ******/
+    /****** Hebergements ******/
     
-        .hebergements {
-            background-color: white;
-            order: 2;
-        }
+    .hebergements {
+        background-color: white;
+        order: 2;
+    }
     
-        .cards-group {
-            flex-direction: column;
-        }
+    .cards-group {
+        flex-direction: column;
+    }
     
-        .cards-group a {
-            width: 100%;
-        }
+    .cards-group a {
+        width: 100%;
+    }
     
-        /****** Populaires ******/
+    /****** Populaires ******/
     
-        .populaires {
-            background-color: var(--main-bg-color);
-        }
+    .populaires {
+        background-color: var(--main-bg-color);
+    }
     
-        .populaires-cards {
-            flex-direction: column;
-            justify-content: space-between;
-        }
+    .populaires-cards {
+        flex-direction: column;
+        justify-content: space-between;
+    }
     
-        .populaires-cards a {
-            width: 100%;
-        }
+    .populaires-cards a {
+        width: 100%;
+    }
     
-        /****** Activités ******/
+    /****** Activités ******/
     
-        .activites {
-            padding: 30px 0;
-        }
+    .activites {
+        padding: 30px 0;
+    }
     
-        .activites-cards {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            box-sizing: border-box;
-        }
+    .activites-cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+    }
     
-        .activites-cards a {
-            width: 100%;
-        }
+    .activites-cards a {
+        width: 100%;
+    }
     
-        .activites-cards .card {
-            height: 200px;
-        }
+    .activites-cards .card {
+        height: 200px;
+    }
     
-        .activites-cards img {
-            height: 70.5%;
-        }
-        
+    .activites-cards img {
+        height: 70.5%;
+    }
+
 }
