@@ -85,13 +85,13 @@ header ul {
     gap: 4.25em;
 }
 
-header a {
+header li {
     padding: 20px 0 20px 0;
 }
 
-header a:hover {
+header li:hover {
     border-top: var(--main-color) solid 2px;
-    color: var(--main-color)
+    color: var(--main-color);
 }
 
 /****** Trouver hébergement ******/
@@ -522,13 +522,13 @@ footer {
         width: 100%; 
     }
     
-    header a {
+    header li {
         width: 50%;
         text-align: center;
         border-bottom: var(--main-bg-color) solid 2px;
     }
     
-    header a:hover {
+    header li:hover {
         border-top: none;
         border-bottom: var(--main-color) solid 2px;
     }
