@@ -133,7 +133,8 @@ h1 + p {
     border-left: none;
     border-top: 1px solid var(--main-bg-color);
     border-bottom: 1px solid var(--main-bg-color);
-    margin-left: -5px; /* Utiliser plutôt la proproiété position: relative; */
+    position: relative;
+    left: -5px;
 }
 
 .submit-button-1 {
@@ -145,7 +146,8 @@ h1 + p {
     height: 49px;
     padding: 0 18px;
     border-radius: 0 15px 15px 0;
-    margin-left: -5px; /* Utiliser plutôt la proproiété position: relative; */
+    position: relative;
+    left: -15px;
 }
 
 .fa-magnifying-glass {
@@ -160,7 +162,8 @@ h1 + p {
     min-width: 50px;
     border-radius: 15px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    margin-left: -15px; /* Utiliser plutôt la proproiété position: relative; */
+    position: relative;
+    left: -15px;
     display: none;
 }
 
@@ -198,7 +201,7 @@ h1 + p {
 }
 
 .filter-option p {
-    font-size: 0.944em;
+    font-size: 0.945em;
 }
 
 .filter-option:hover {
@@ -358,7 +361,7 @@ h1 + p {
 
 .activites-cards a {
     width: 23%;
-    margin-top: 30px; /* Margin top appliqué ici et non pas sur la card directement, car sinon le lien cliquable l'englobe aussi */
+    margin-top: 30px;
 }
     
 .activites-cards .card {
@@ -500,7 +503,7 @@ footer {
 
     /****** General ******/
 
-    .main-container { /* englobe les balises <header>, <main> et <footer> pour définir les dimensions de la page */
+    .main-container {
         padding: 0;
         margin: 0;
     }
@@ -575,6 +578,10 @@ footer {
     
     .filter-option {
         justify-content: flex-start;
+    }
+
+    .filter-option p {
+        font-size: 0.8em;
     }
     
     /****** Hebergements and populaires ******/
