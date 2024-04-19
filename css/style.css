@@ -392,12 +392,11 @@ footer {
     width: 33%;
     display: flex;
     flex-direction: column;
-    align-items: space-between;
     padding: 30px;
 }
 
 .carre-footer h2 {
-    font-size: 1.125;
+    font-size: 1.125rem;
     margin-bottom: 15px;
 }
 
