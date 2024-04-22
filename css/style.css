@@ -21,12 +21,11 @@ body {
     justify-content: center;
 }
 
-.main-container { /* englobe les balises <header>, <main> et <footer> pour définir les dimensions de la page */
+.main-container {
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
-    box-sizing: border-box; /* Permet de spécifier si la marge intérieure (padding) et la bordure (border) d'un élément doivent compter dans sa dimension réelle */
-    /* La valeur border-box fait que même en rajoutant un padding, l'élément padding compris rester toujours de même dimension (la place pour le contenu diminue) */
+    box-sizing: border-box;
 }
 
 a {
