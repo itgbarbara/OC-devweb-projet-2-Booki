@@ -467,8 +467,13 @@ footer {
         justify-content: space-between;
     }
 
+    .populaires-cards .card { /* Ajout pour corriger un bug d'affichage avec les liens et les marges en version tablette et mobile */
+        margin-top: 0;
+    }
+
     .populaires-cards a {
         width: 30%;
+        margin-top: 33px; /* Ajout pour corriger un bug d'affichage avec les liens et les marges en version tablette et mobile */
     }
 
     .populaires-cards .card-title {
