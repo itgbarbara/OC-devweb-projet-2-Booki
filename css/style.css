@@ -545,21 +545,8 @@ footer {
     
     /****** Trouver hébergement ******/
     
-    form {
-        width: 100%;
-    }
-
-    .searchbar {
-        width: 100%;
-    }
-
-    .fa-location-dot {
-        width: 15%;
-        max-width: 50px;
-    }
-
     .search-field {
-        width: 70%;
+        width: 100%;
         max-width: 278px;
     }
     
@@ -568,8 +555,6 @@ footer {
     }
     
     .submit-button-2 {
-        width: 15%;
-        max-width: 49px;
         display: inline;
     }
     
