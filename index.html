@@ -2,21 +2,25 @@
 <html lang="fr">
 
 <head>
+    <!-- Balises meta : -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titre du document : -->
     <title>Booki</title>
+    <!-- Liens vers les polices : -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Liens vers les fichiers CSS : -->
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <div class="main-container">
+    <div class="main-container"> <!-- Englobe les balises <header>, <main> et <footer> -->
         <header>
             <img src="images/logo/Booki.png" alt="Logo Booki" class="logo-header">
             <nav>
@@ -42,6 +46,7 @@
                         <i class="fa-sharp fa-solid fa-location-dot"></i>
                     </label>
                     <input class="search-field" type="search" name="recherche-lieu" id="recherche-lieu">
+                    <!-- Deux boutons pour les versions responsive : -->
                     <input class="submit-button-1" type="submit" value="Rechercher">
                     <button class="submit-button-2" type="submit">
                         <i class="fa-solid fa-magnifying-glass"></i>
@@ -85,7 +90,7 @@
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </section>
-            <div class="hebergements-and-populaires">
+            <div class="hebergements-and-populaires"> <!-- Conteneur pour organiser les sections "Hébergements" et "Populaires" selon les versions -->
                 <section class="hebergements" id="hebergements">
                     <h2 class="section-title">Hébergements à Marseille</h2>
                     <div class="hebergements-cards">
