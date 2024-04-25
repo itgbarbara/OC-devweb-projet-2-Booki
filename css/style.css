@@ -146,7 +146,7 @@ h1 + p {
     padding: 0 18px;
     border-radius: 0 15px 15px 0;
     position: relative;
-    left: -15px;
+    left: -6px;
 }
 
 .fa-magnifying-glass {
@@ -552,12 +552,24 @@ footer {
     .searchbar {
         width: 100%;
     }
+
+    .fa-location-dot {
+        width: 15%;
+        max-width: 50px;
+    }
+
+    .search-field {
+        width: 70%;
+        max-width: 278px;
+    }
     
     .submit-button-1 {
         display: none;
     }
     
     .submit-button-2 {
+        width: 15%;
+        max-width: 49px;
         display: inline;
     }
     
