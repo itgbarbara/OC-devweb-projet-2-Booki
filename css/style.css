@@ -21,7 +21,7 @@ body {
     justify-content: center;
 }
 
-.main-container {
+.main-container { /* Pour donner une largeur maximale au conteneur principal qui englobe <header>, <main> et <footer> */
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
