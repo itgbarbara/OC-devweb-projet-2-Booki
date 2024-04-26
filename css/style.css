@@ -133,7 +133,7 @@ h1 + p {
     border-top: 1px solid var(--main-bg-color);
     border-bottom: 1px solid var(--main-bg-color);
     position: relative;
-    left: -5px;
+    left: -0px; /* Mettre une valeur négative s'il y a un décallage */
 }
 
 .submit-button-1 {
@@ -548,6 +548,7 @@ footer {
     .search-field {
         width: 100%;
         max-width: 278px;
+        left: 0px;
     }
     
     .submit-button-1 {
@@ -556,7 +557,9 @@ footer {
     
     .submit-button-2 {
         display: inline;
+        left: -15px;
     }
+
     
     /****** Filtres *********/
     
